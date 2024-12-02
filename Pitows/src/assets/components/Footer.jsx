@@ -14,9 +14,19 @@ const Footer = () =>{
             </form>
         </div>
         <div className="info">
-            <p>EMail de contato: Pitows.sorriso@gmail.com</p>
-            <p>© Leveling 2024</p>
+            <p>EMail de contato</p>
+            <p>Pitows.sorriso@gmail.com</p>
+            <p>Políticas</p>
+            <p>Políticas de Privacidade</p>
+            <p>Políticas de Privacidade</p>  
         </div>
+
+        <div className="social-media">
+       <p>Redes Sociais</p>
+       <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+       <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+       <a href="#"><i class='bx bxl-instagram' ></i></a>
+   </div>
     </footer>);
 }
 
