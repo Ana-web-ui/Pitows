@@ -1,5 +1,5 @@
 import React from "react";
-import "./Convite.css"
+import "../convite.css"
 
 const Convite = () =>{
     return(
@@ -18,4 +18,4 @@ const Convite = () =>{
  </section>
  );  
 }
-export default Convite
+export default Convite;

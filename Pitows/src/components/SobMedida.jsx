@@ -1,5 +1,5 @@
 import React from "react";
-import "./SobMedida.css";
+import "../sobMedida.css";
 
 const SobMedida = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./contato.css"
+import "../contato.css"
 
 const Contato = () =>{
     <div className="container-contact">
@@ -9,3 +9,4 @@ const Contato = () =>{
         <button type="submit">Entre em contato via whatsapp</button>
     </div>
 }
+export default Contato;

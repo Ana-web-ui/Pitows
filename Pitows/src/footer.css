@@ -1,0 +1,26 @@
+.footer{
+    background-color: #000;
+    color: white;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.contact-form{
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact-form button{
+    padding: 10px 20px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+}

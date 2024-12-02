@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "../header.css";
 
 const Header = () =>{
 
@@ -15,7 +15,7 @@ const Header = () =>{
                 <li>Contato</li>
             </ul>
         </nav>
-        <div className="search-icon"></div>
+        <div className="search-icon"><i class='bx bx-search-alt'></i></div>
     </header>);
 }
 
