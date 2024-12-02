@@ -4,6 +4,7 @@
     padding: 50px;
     display: flex;
     text-align: center;
+    font-family: "Instrument Sans", sans-serif;
 }
 
 .contact-form{
@@ -12,6 +13,7 @@
 
 .contact-form input,
 .contact-form textarea{
+  
     display: block;
     width: 80%;
     margin: 10px auto;

@@ -1,27 +1,49 @@
-.header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: white;
-    border-bottom: 1px solid #ccc;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Instrument Sans", sans-serif;
 }
 
-.logo{
-    font-size: 24px;
-    font-weight: bold;
+.logo img {
+  height: 40px;
 }
 
-.menu{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.nav-menu{
+    width: 40%;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  color: #666;
+  font-size: 16px;
+  text-transform: uppercase;
+  justify-content: space-around;
+  width:100%;
 }
 
-.menu li{
-    cursor: pointer;
+.menu li {
+  cursor: pointer;
 }
 
-.search-icon{
-    cursor: pointer;
+.search-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #333;
 }
+
+.search-icon i {
+  font-size: 20px;
+  color: #333;
+}
+.search-icon input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+  }

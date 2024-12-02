@@ -3,7 +3,7 @@ import "../footer.css";
 
 const Footer = () =>{
     return(
-    <footer className="Footer">
+    <footer className="footer">
         <div className="contact-form">
             <h3>Envie suas informações para contato</h3>
             <form>
@@ -14,7 +14,7 @@ const Footer = () =>{
             </form>
         </div>
         <div className="info">
-            <p>EMail de contato</p>
+            <p>Email de contato</p>
             <p>Pitows.sorriso@gmail.com</p>
             <p>Políticas</p>
             <p>Políticas de Privacidade</p>
