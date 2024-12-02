@@ -3,18 +3,27 @@
 .sob-medida{
   display: flex;
   padding: 50px 0;
-  border-bottom: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   font-family: "Instrument Sans", sans-serif;
 }
 
 .container{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
   gap: 20px;
+
 }
 
 .image-section img{
-  width: 100%;
-  border-radius: 5px;
+  width: 700px;
+  height: 500px;
+  object-fit:cover ;
+  overflow: hidden;
+
 }
 
 .text-section{
@@ -22,6 +31,69 @@
 }
 
 .text-section h2{
-  font-size: 24px;
+  font-size: 36px;
   margin-bottom: 10px;
+  font-weight: 500;
+  color: #505050;
+  border-bottom: 2px solid #505050;
+  line-height: 1.5;
+ 
 }
+
+.section-bg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16304B;
+}
+
+.section-bg div h2 {
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+}
+.section-bg div p {
+  color: #aaa;
+}
+
+.text-section p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #707070;
+  line-height: 1.5;
+  padding-top: 18px;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  width:100%;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.title hr{
+  width: 32%;
+  height:1px ;
+  background: #505050;
+  border: none;
+
+}
+
+.title p{
+  font-family: "Instrument Sans", sans-serif;
+  width: auto;
+  text-align: center;
+  color: #505050;
+  font-size: 20px;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+

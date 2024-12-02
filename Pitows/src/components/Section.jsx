@@ -2,7 +2,7 @@ import React from "react";
 
 const Section = ({ title, content, content_right, img_path }) => {
     return (
-        <section className="sob-medida">
+        <section className={`sob-medida ${!content_right? 'section-bg' : ''}`} >
             <div className="container">
                 {content_right ? (<>
                     <div className="image-section">

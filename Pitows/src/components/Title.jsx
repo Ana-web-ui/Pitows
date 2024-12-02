@@ -4,11 +4,12 @@ import React from "react";
 const Title =  () =>{
     return(
         <>
-        <hr />
-        <p>Sob Medida</p>
-        <hr />
+        <div className="title">
+            <hr />
+            <p>Sob Medida</p>
+            <hr />
+        </div>
         </>
-        
     );
 
 }
