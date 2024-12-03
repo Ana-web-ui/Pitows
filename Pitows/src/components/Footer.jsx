@@ -26,23 +26,25 @@ const Footer = () => {
             </form>
           </div>
           <div className="info">
-            <p>Email de contato</p>
-            <p>Pitows.sorriso@gmail.com</p>
-            <p>Políticas</p>
+            <div>
+            <h3>Email de contato</h3>
+            <p>Pitows.sorriso@gmail.com</p></div>
+           <div> <h3>Políticas</h3>
+            
             <p>Políticas de Privacidade</p>
-            <p>Políticas de Privacidade</p>
+            <p>Políticas de Privacidade</p></div>
           </div>
 
           <div className="social-media">
-            <p>Redes Sociais</p>
+            <h3>Redes Sociais</h3>
             <a href="#">
-              <i class="bx bxl-facebook-circle"></i>
+              <i class="bx bxl-facebook-circle bx-md"></i>
             </a>
             <a href="#">
-              <i class="bx bxl-whatsapp"></i>
+              <i class="bx bxl-whatsapp bx-md"></i>
             </a>
             <a href="#">
-              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-instagram bx-md"></i>
             </a>
           </div>
         </div>
