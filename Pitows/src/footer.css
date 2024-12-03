@@ -1,28 +1,94 @@
 .footer{
-    background-color: #000;
+    background-color: #101010;
     color: white;
     padding: 50px;
     display: flex;
     text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
     font-family: "Instrument Sans", sans-serif;
 }
 
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
 .contact-form{
-    margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
 }
 
-.contact-form input,
-.contact-form textarea{
-  
-    display: block;
-    width: 80%;
-    margin: 10px auto;
+.contact-form h3{
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    padding: 10px;
+}
+.form-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-input div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px;
 }
 
+.form-input div input{
+    width: 100%;
+    height: 44px;
+    padding:  0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #505050;
+    color: #BBBBBB;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.form-input div input:focus{
+    outline: none;
+    
+}
+
+.form-input div label{
+font-size: 20px;
+font-weight: 600;
+}
+
+.contact-form textarea{
+    width: 100%;
+    height: 145px;
+    resize: none; /* Impede o redimensionamento */
+    padding: 10px;
+    background-color: #505050;
+    color: #BBBBBB;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.contact-form div{
+    padding: 10px;
+}
+
+
 .contact-form button{
     padding: 10px 20px;
-    background-color: gold;
+    background-color: #D0A828;
     border: none;
     cursor: pointer;
 }
