@@ -133,4 +133,12 @@
   border: none;
   font-size: 16px;
   font-weight: 600;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.container-contact button:hover{
+  color: #101010;
+  background-color: #fff;
+  transform: scale(1.2);
+  border: 1px solid #101010;
 }

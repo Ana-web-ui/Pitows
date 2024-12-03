@@ -19,20 +19,26 @@ const Footer = () => {
                   <input type="email" placeholder="| exemplo@gmail.com" />
                 </div>
               </div>
-              <div>
-                <textarea placeholder="| Assunto"></textarea>
+              <div className="textarea">
+                <div>
+                 <textarea placeholder="| Assunto"></textarea>
+                </div>
               </div>
-              <button type="submit">Enviar</button>
+              <div className="textarea">
+                <div>
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
             </form>
           </div>
           <div className="info">
             <div>
             <h3>Email de contato</h3>
-            <p>Pitows.sorriso@gmail.com</p></div>
+            <p><a href="">Pitows.sorriso@gmail.com</a></p></div>
            <div> <h3>Políticas</h3>
             
-            <p>Políticas de Privacidade</p>
-            <p>Políticas de Privacidade</p></div>
+            <p><a href="">Políticas de Privacidade</a></p>
+            <p><a href="">Políticas de Privacidade</a></p></div>
           </div>
 
           <div className="social-media">

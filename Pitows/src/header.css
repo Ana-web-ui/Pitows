@@ -33,6 +33,13 @@
 
 .menu li {
   cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.menu li:hover{
+  transform: scale(1.2);
+  color: #16304B;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 .search-icon {
