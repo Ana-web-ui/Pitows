@@ -1,184 +1,194 @@
-.footer{
-    background-color: #101010;
-    color: white;
-    padding: 50px;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: "Instrument Sans", sans-serif;
+.footer {
+  background-color: #101010;
+  color: white;
+  padding: 50px 50px 0 50px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Instrument Sans", sans-serif;
+  flex-direction: column;
 }
 
-.footer-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 80%;
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  border-bottom: 1px solid #2c2c2c;
+  padding-bottom: 50px;
 }
-.contact-form{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-.contact-form h3{
-    font-size: 22px;
-    font-weight: 600;
-    display: flex;
-    padding: 10px;
-}
-.form-input{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+.form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.form-input div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+.form-input div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
 }
 
-.form-input div input{
-    width: 100%;
-    height: 44px;
-    padding:  0 10px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #505050;
-    color: #BBBBBB;
-    border: none;
-    border-radius: 8px;
-
+.form-input div input {
+  width: 100%;
+  height: 44px;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #505050;
+  color: #bbbbbb;
+  border: none;
+  border-radius: 8px;
 }
 
-.form-input div input:focus{
-    outline: none;
-    
+.form-input div input:focus {
+  outline: none;
 }
 
-.contact-form textarea{
-    width: 100%;
-    line-height: 1.5;
-    height: 145px;
-    resize: none; /* Impede o redimensionamento */
-    padding: 10px;
-    background-color: #505050;
-    color: #BBBBBB;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 600;
+.contact-form textarea {
+  width: 100%;
+  line-height: 1.5;
+  height: 145px;
+  resize: none; /* Impede o redimensionamento */
+  padding: 10px;
+  background-color: #505050;
+  color: #bbbbbb;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .textarea {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 .textarea div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 100%;
 }
 
-.form-input div label{
-font-size: 20px;
-font-weight: 600;
+.form-input div label {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-
-.contact-form div{
-    padding: 5px;
+.contact-form div {
+  padding: 5px;
 }
 
-
-.contact-form button{
-    padding: 10px 20px;
-    background-color: #D0A828;
-    color: #ffff;
-    font-size: 24px;
-    font-weight: 600;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    height: 50px;
-    transition: transform 0.3s, color 0.3s;
-
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #d0a828;
+  color: #ffff;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  transition: transform 0.3s, color 0.3s;
 }
 
-.contact-form button:hover{
-    color: #101010;
-    background-color: #fff;
-    transform: scale(1);
-
+.contact-form button:hover {
+  color: #101010;
+  background-color: #fff;
+  transform: scale(1);
 }
 
-.info{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.info a{
-    outline: none;
-    text-decoration: none;
-    color: #aaaaaa;
+.info a {
+  outline: none;
+  text-decoration: none;
+  color: #aaaaaa;
 }
 
 .info a:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s, color 0.3s;
-    color: #eeecec;
-  }
-.info h3{
-    font-size: 22px;
-    font-weight: 600;
+  transform: scale(1.2);
+  transition: transform 0.3s, color 0.3s;
+  color: #eeecec;
 }
-.info p{
-    font-size: 20px;
-    font-weight: 400;
-    color: #aaaaaa;
+.info h3 {
+  font-size: 22px;
+  font-weight: 600;
 }
-.info div{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 20px 0 70px 0;
-    align-self: flex-start;
+.info p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.info div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px 0 70px 0;
+  align-self: flex-start;
 }
 
-.social-media{
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    padding: 20px 0 190px 0; 
+.social-media {
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0 190px 0;
 }
 
 .social-media h3 {
-    margin-bottom: 10px;
-    font-size: 22px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.social-media i {
+  font-size: 30px;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+  padding: 7px;
+}
+
+.social-media i:hover {
+  transform: scale(1.2);
+  color: #d0a828;
+}
+
+.end{
+    width: 100%;
+    height: auto;
+    margin: 9px auto 15px;
+    font-size: 16px;
     font-weight: 600;
-  }
 
-.social-media  i {
-    font-size: 30px;
-    color: #fff;
-    transition: transform 0.3s, color 0.3s;
-    padding: 7px;
-    
-  }  
+}
 
-  .social-media i:hover {
-    transform: scale(1.2);
-    color: #D0A828;
-  }
+.form-header {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.form-header h3 {
+    font-size: 22px;
+  font-weight: 600;
+  display: flex;
+}

@@ -7,7 +7,9 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-section">
           <div className="contact-form">
-            <h3>Envie suas informações para contato</h3>
+            <div className="form-header">
+             <h3>Envie suas informações para contato</h3>
+            </div>
             <form>
               <div className="form-input">
                 <div>
@@ -53,6 +55,9 @@ const Footer = () => {
               <i class="bx bxl-instagram bx-md"></i>
             </a>
           </div>
+        </div>
+        <div>
+          <p className="end">Copyright © Leveling 2024.</p>
         </div>
       </footer>
     </>
