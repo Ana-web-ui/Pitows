@@ -1,5 +1,5 @@
 import React from "react";
-import "../footer.css";
+import "../css/footer.css";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-section">
           <div className="contact-form">
             <div className="form-header">
-             <h3>Envie suas informações para contato</h3>
+              <h3>Envie suas informações para contato</h3>
             </div>
             <form>
               <div className="form-input">
@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
               <div className="textarea">
                 <div>
-                 <textarea placeholder="| Assunto"></textarea>
+                  <textarea placeholder="| Assunto"></textarea>
                 </div>
               </div>
               <div className="textarea">
@@ -35,12 +35,21 @@ const Footer = () => {
           </div>
           <div className="info">
             <div>
-            <h3>Email de contato</h3>
-            <p><a href="">Pitows.sorriso@gmail.com</a></p></div>
-           <div> <h3>Políticas</h3>
-            
-            <p><a href="">Políticas de Privacidade</a></p>
-            <p><a href="">Políticas de Privacidade</a></p></div>
+              <h3>Email de contato</h3>
+              <p>
+                <a href="">Pitows.sorriso@gmail.com</a>
+              </p>
+            </div>
+            <div>
+              {" "}
+              <h3>Políticas</h3>
+              <p>
+                <a href="">Políticas de Privacidade</a>
+              </p>
+              <p>
+                <a href="">Políticas de Privacidade</a>
+              </p>
+            </div>
           </div>
 
           <div className="social-media">
